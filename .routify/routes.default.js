@@ -164,38 +164,6 @@ export default {
       "meta": {
         "title": "home1"
       },
-      "id": "_default_home_copy_2_md",
-      "name": "home copy 2",
-      "module": () => import('../src/routes/home copy 2.md'),
-      "file": {
-        "path": "src/routes/home copy 2.md",
-        "dir": "src/routes",
-        "base": "home copy 2.md",
-        "ext": ".md",
-        "name": "home copy 2"
-      },
-      "children": []
-    },
-    {
-      "meta": {
-        "title": "home1"
-      },
-      "id": "_default_home_copy_3_md",
-      "name": "home copy 3",
-      "module": () => import('../src/routes/home copy 3.md'),
-      "file": {
-        "path": "src/routes/home copy 3.md",
-        "dir": "src/routes",
-        "base": "home copy 3.md",
-        "ext": ".md",
-        "name": "home copy 3"
-      },
-      "children": []
-    },
-    {
-      "meta": {
-        "title": "home1"
-      },
       "id": "_default_home_copy_4_md",
       "name": "home copy 4",
       "module": () => import('../src/routes/home copy 4.md'),
@@ -221,6 +189,22 @@ export default {
         "base": "home copy 5.md",
         "ext": ".md",
         "name": "home copy 5"
+      },
+      "children": []
+    },
+    {
+      "meta": {
+        "title": "12"
+      },
+      "id": "_default_home_copy_6_md",
+      "name": "home copy 6",
+      "module": () => import('../src/routes/home copy 6.md'),
+      "file": {
+        "path": "src/routes/home copy 6.md",
+        "dir": "src/routes",
+        "base": "home copy 6.md",
+        "ext": ".md",
+        "name": "home copy 6"
       },
       "children": []
     },
@@ -253,6 +237,38 @@ export default {
         "base": "home.md",
         "ext": ".md",
         "name": "home"
+      },
+      "children": []
+    },
+    {
+      "meta": {
+        "title": "home1"
+      },
+      "id": "_default_home2_md",
+      "name": "home2",
+      "module": () => import('../src/routes/home2.md'),
+      "file": {
+        "path": "src/routes/home2.md",
+        "dir": "src/routes",
+        "base": "home2.md",
+        "ext": ".md",
+        "name": "home2"
+      },
+      "children": []
+    },
+    {
+      "meta": {
+        "title": "home3"
+      },
+      "id": "_default_home3_md",
+      "name": "home3",
+      "module": () => import('../src/routes/home3.md'),
+      "file": {
+        "path": "src/routes/home3.md",
+        "dir": "src/routes",
+        "base": "home3.md",
+        "ext": ".md",
+        "name": "home3"
       },
       "children": []
     },
