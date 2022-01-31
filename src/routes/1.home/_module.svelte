@@ -1,7 +1,7 @@
 <script>
     import { isActive, node } from '@roxi/routify'
     export let pages
-    $: liveUrl = inde    => pages && pages[index]?.router?.url.external()
+    $: liveUrl = index    => pages && pages[index]?.router?.url.external()
     const sptitle = (name)=>{
         console.log(name);
         let sp = name.split('.');
@@ -16,7 +16,6 @@
 </script>
 
 <nav class="container">
-    <h1><a href="/">Portfolio</a></h1>
     <ul>
         {#each $node.pages as childNode, index}
             <li class:isActive={$isActive(childNode.path)}>                
