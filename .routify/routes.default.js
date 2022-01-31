@@ -45,22 +45,8 @@ export default {
     },
     {
       "meta": {},
-      "id": "_default_2_second",
-      "name": "2.second",
-      "module": false,
-      "file": {
-        "path": "src/routes/2.second",
-        "dir": "src/routes",
-        "base": "2.second",
-        "ext": ".second",
-        "name": "2.second"
-      },
-      "children": []
-    },
-    {
-      "meta": {},
       "id": "_default_index_md",
-      "name": "index",
+      "name": "index",../src/routes/_module.svelte
       "module": () => import('../src/routes/index.md'),
       "file": {
         "path": "src/routes/index.md",
